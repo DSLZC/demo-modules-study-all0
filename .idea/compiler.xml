@@ -22,11 +22,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="demo-modules-study-all" />
+        <module name="dsl-code" />
+        <module name="dsl-code-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo-modules-study-all" target="1.8" />
+      <module name="dsl-code" target="1.8" />
+      <module name="dsl-code-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

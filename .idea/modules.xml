@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo-modules-study-all.iml" filepath="$PROJECT_DIR$/demo-modules-study-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsl-code/dsl-code.iml" filepath="$PROJECT_DIR$/dsl-code/dsl-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dsl-code-web/dsl-code-web.iml" filepath="$PROJECT_DIR$/dsl-code-web/dsl-code-web.iml" />
     </modules>
   </component>
 </project>
