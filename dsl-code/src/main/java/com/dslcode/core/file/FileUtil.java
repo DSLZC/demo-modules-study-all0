@@ -7,6 +7,7 @@ import com.dslcode.core.util.NullUtil;
 import org.apache.commons.io.FileExistsException;
 
 import javax.imageio.ImageIO;
+import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.*;
 
@@ -132,6 +133,36 @@ public class FileUtil {
 		targetPath.append(sourceFile.getParent()).append(PATH_SEPARATOR).append(newName).append(suffix(sourceFile.getName(), true));
 		File targetFile = getFile(targetPath.toString(), 0);
 		return sourceFile.renameTo(targetFile);
+	}
+	
+	/**
+	 * 文件下载
+	 * @param sourcePath 源文件绝对路径
+	 * @param fileName 文件名称
+	 * @param fileType 文件路径
+	 * @param response
+	 * @throws Exception
+	 */
+	public static void download(String sourcePath, String fileName, String fileType, HttpServletResponse response) throws Exception{
+		InputStream is = new FileInputStream(getFile(sourcePath, 1));
+		download(is, fileName, fileType, response);
+		if(null != is) is.close();
+	}
+	
+	/**
+	 * 文件下载
+	 * @param is 源文件输入流
+	 * @param fileName 文件名称
+	 * @param fileType 文件路径
+	 * @param response
+	 * @throws Exception
+	 */
+	public static void download(InputStream is, String fileName, String fileType, HttpServletResponse response) throws Exception{
+		response.setContentType(fileType + "; charset=UTF-8");
+		response.setHeader("Content-Disposition", "attachment;filename=" + new String(fileName.getBytes("UTF-8"), "ISO-8859-1"));
+		OutputStream os = response.getOutputStream();
+		copy(is, os);
+		if(null != os) os.close();
 	}
 
 	/**
