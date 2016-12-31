@@ -22,7 +22,6 @@
 	</properties>
 
 	<dependencies>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -39,6 +38,11 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>dsl-code</groupId>
+			<artifactId>common-code</artifactId>
+			<version>1.0</version>
 		</dependency>
 	</dependencies>
 
