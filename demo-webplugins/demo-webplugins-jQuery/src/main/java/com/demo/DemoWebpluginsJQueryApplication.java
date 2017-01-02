@@ -1,12 +1,12 @@
-package com.web.modules;
+package com.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoModulesWebApplication {
+public class DemoWebpluginsJQueryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoModulesWebApplication.class, args);
+		SpringApplication.run(DemoWebpluginsJQueryApplication.class, args);
 	}
 }

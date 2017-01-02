@@ -8,6 +8,8 @@
     <file url="file://$PROJECT_DIR$/demo-spring-boot/demo-spring-data" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-JPA-multi-datasource" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-JPA-multi-datasource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-webplugins" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-webplugins/demo-webplugins-jQuery" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dsl-code" charset="UTF-8" />
   </component>
 </project>

@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/demo-spring-boot/demo-spring-data/pom.xml" />
         <option value="$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-multi-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-JPA-multi-datasource/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-webplugins/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-webplugins/demo-webplugins-jQuery/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

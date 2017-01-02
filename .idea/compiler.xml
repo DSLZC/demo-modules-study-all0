@@ -26,6 +26,8 @@
         <module name="demo-JPA-multi-datasource" />
         <module name="demo-modules-web" />
         <module name="demo-multi-datasource" />
+        <module name="demo-webplugins" />
+        <module name="demo-webplugins-jQuery" />
         <module name="demomultidatasource2" />
         <module name="dsl-code" />
       </profile>
@@ -38,6 +40,8 @@
       <module name="demo-multi-datasource" target="1.8" />
       <module name="demo-spring-boot" target="1.8" />
       <module name="demo-spring-data" target="1.8" />
+      <module name="demo-webplugins" target="1.8" />
+      <module name="demo-webplugins-jQuery" target="1.8" />
       <module name="demomultidatasource2" target="1.8" />
       <module name="dsl-code" target="1.8" />
       <module name="dsl-code-web" target="1.5" />

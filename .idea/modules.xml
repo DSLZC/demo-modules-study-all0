@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/demo-plugins-js/demo-modules-web.iml" filepath="$PROJECT_DIR$/demo-plugins-js/demo-modules-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-spring-boot/demo-spring-boot.iml" filepath="$PROJECT_DIR$/demo-spring-boot/demo-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-spring-data.iml" filepath="$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-spring-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-webplugins/demo-webplugins.iml" filepath="$PROJECT_DIR$/demo-webplugins/demo-webplugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-webplugins/demo-webplugins-jQuery/demo-webplugins-jQuery.iml" filepath="$PROJECT_DIR$/demo-webplugins/demo-webplugins-jQuery/demo-webplugins-jQuery.iml" />
       <module fileurl="file://$PROJECT_DIR$/dsl-code/dsl-code.iml" filepath="$PROJECT_DIR$/dsl-code/dsl-code.iml" />
     </modules>
   </component>
