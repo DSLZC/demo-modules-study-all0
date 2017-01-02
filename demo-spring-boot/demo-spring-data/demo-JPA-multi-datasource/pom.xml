@@ -11,7 +11,7 @@
 
 	<parent>
 		<groupId>modules-study</groupId>
-		<artifactId>demo-spring-boot</artifactId>
+		<artifactId>demo-spring-data</artifactId>
 		<version>1.0</version>
 	</parent>
 
@@ -54,6 +54,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>

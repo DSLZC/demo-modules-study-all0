@@ -9,9 +9,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dsl-code/pom.xml" />
         <option value="$PROJECT_DIR$/demo-modules-web/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-spring-boot/demo-multi-datasource/pom.xml" />
         <option value="$PROJECT_DIR$/demo-spring-boot/pom.xml" />
         <option value="$PROJECT_DIR$/demo-spring-boot/demo-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-boot/demo-spring-data/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-multi-datasource/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

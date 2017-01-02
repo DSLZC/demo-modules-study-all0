@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-JPA-multi-datasource/demo-multi-datasource.iml" filepath="$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-JPA-multi-datasource/demo-multi-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-spring-boot/demo-aop/demo-aop.iml" filepath="$PROJECT_DIR$/demo-spring-boot/demo-aop/demo-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-modules-study-all.iml" filepath="$PROJECT_DIR$/demo-modules-study-all.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-plugins-js/demo-modules-web.iml" filepath="$PROJECT_DIR$/demo-plugins-js/demo-modules-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo-spring-boot/demo-multi-datasource/demo-multi-datasource.iml" filepath="$PROJECT_DIR$/demo-spring-boot/demo-multi-datasource/demo-multi-datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-spring-boot/demo-spring-boot.iml" filepath="$PROJECT_DIR$/demo-spring-boot/demo-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-spring-data.iml" filepath="$PROJECT_DIR$/demo-spring-boot/demo-spring-data/demo-spring-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/dsl-code/dsl-code.iml" filepath="$PROJECT_DIR$/dsl-code/dsl-code.iml" />
     </modules>
   </component>
