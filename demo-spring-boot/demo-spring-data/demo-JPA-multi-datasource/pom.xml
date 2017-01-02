@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>demo-multi-datasource</artifactId>
+	<artifactId>demo-JPA-multi-datasource</artifactId>
 	<packaging>jar</packaging>
 
-	<name>demo-multi-datasource</name>
+	<name>demo-JPA-multi-datasource</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
